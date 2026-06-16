@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+<circle cx="128" cy="128" r="120" fill="#fff" stroke="#8d5524" stroke-width="8"/>
+<circle cx="128" cy="82" r="36" fill="#8d5524"/>
+<path d="M110 72 L142 92 L136 102 L104 82Z" fill="#fff"/>
+<path d="M144 92 L156 104 L148 112 L136 100Z" fill="#fff"/>
+<text x="128" y="176" text-anchor="middle" font-size="18" font-weight="bold" font-family="Arial" fill="#8d5524">EXCAVATION</text>
+<text x="128" y="200" text-anchor="middle" font-size="15" font-family="Arial" fill="#555">TRENCHING</text>
+</svg>

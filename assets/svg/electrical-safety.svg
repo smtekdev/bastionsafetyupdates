@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0057B8"/>
+      <stop offset="100%" stop-color="#0099FF"/>
+    </linearGradient>
+  </defs>
+
+  <circle
+    cx="128"
+    cy="128"
+    r="118"
+    fill="white"
+    stroke="url(#grad)"
+    stroke-width="10"
+  />
+
+  <circle
+    cx="128"
+    cy="85"
+    r="38"
+    fill="url(#grad)"
+  />
+
+  <polygon
+    points="128,58 108,98 124,98 110,135 148,88 132,88"
+    fill="white"
+  />
+
+  <text
+    x="128"
+    y="182"
+    text-anchor="middle"
+    font-size="20"
+    font-family="Arial"
+    font-weight="bold"
+    fill="#0057B8">
+    ELECTRICAL
+  </text>
+
+  <text
+    x="128"
+    y="208"
+    text-anchor="middle"
+    font-size="18"
+    font-family="Arial"
+    fill="#444">
+    SAFETY
+  </text>
+
+</svg>

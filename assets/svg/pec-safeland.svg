@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <circle cx="128" cy="128" r="120" fill="#fff" stroke="#0a9396" stroke-width="8"/>
+  <circle cx="128" cy="82" r="36" fill="#0a9396"/>
+
+  <text x="128" y="92"
+        text-anchor="middle"
+        font-size="24"
+        font-weight="bold"
+        fill="#fff">PEC</text>
+
+  <text x="128" y="174"
+        text-anchor="middle"
+        font-size="18"
+        font-weight="bold"
+        fill="#0a9396">SAFELAND</text>
+
+  <text x="128" y="198"
+        text-anchor="middle"
+        font-size="15"
+        fill="#555">BASIC</text>
+</svg>

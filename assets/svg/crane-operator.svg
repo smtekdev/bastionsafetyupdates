@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+<circle cx="128" cy="128" r="120" fill="#fff" stroke="#f4a100" stroke-width="8"/>
+<circle cx="128" cy="82" r="36" fill="#f4a100"/>
+<path d="M108 60 H148 V68 H132 V98 H124 V68 H108Z" fill="#fff"/>
+<circle cx="128" cy="104" r="5" fill="#fff"/>
+<text x="128" y="176" text-anchor="middle" font-size="18" font-weight="bold" fill="#f4a100">CRANE</text>
+<text x="128" y="198" text-anchor="middle" font-size="15" fill="#555">OPERATOR</text>
+</svg>

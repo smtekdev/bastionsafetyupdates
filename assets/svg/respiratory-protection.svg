@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="256"
+     height="256"
+     viewBox="0 0 256 256">
+
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B5ED7"/>
+      <stop offset="100%" stop-color="#20A4F3"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Circle -->
+  <circle
+      cx="128"
+      cy="128"
+      r="118"
+      fill="white"
+      stroke="url(#grad)"
+      stroke-width="10"/>
+
+  <!-- Background Circle -->
+  <circle
+      cx="128"
+      cy="82"
+      r="38"
+      fill="url(#grad)"/>
+
+  <!-- Respirator Mask -->
+  <path
+      d="M98 82
+         Q128 58 158 82
+         L148 110
+         Q128 126 108 110
+         Z"
+      fill="white"/>
+
+  <!-- Filters -->
+  <circle
+      cx="102"
+      cy="92"
+      r="8"
+      fill="#0B5ED7"/>
+
+  <circle
+      cx="154"
+      cy="92"
+      r="8"
+      fill="#0B5ED7"/>
+
+  <!-- Text -->
+  <text
+      x="128"
+      y="180"
+      text-anchor="middle"
+      font-family="Arial"
+      font-size="18"
+      font-weight="bold"
+      fill="#0B5ED7">
+      RESPIRATORY
+  </text>
+
+  <text
+      x="128"
+      y="205"
+      text-anchor="middle"
+      font-family="Arial"
+      font-size="16"
+      fill="#444">
+      PROTECTION
+  </text>
+
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+<circle cx="128" cy="128" r="120" fill="#fff" stroke="#2a9d8f" stroke-width="8"/>
+<circle cx="128" cy="82" r="36" fill="#2a9d8f"/>
+<path d="M128 60 V92 M112 92 Q128 118 144 92" stroke="#fff" stroke-width="6" fill="none"/>
+<circle cx="128" cy="98" r="10" fill="#fff"/>
+<text x="128" y="176" text-anchor="middle" font-size="18" font-weight="bold" font-family="Arial" fill="#2a9d8f">RIGGING</text>
+<text x="128" y="200" text-anchor="middle" font-size="15" font-family="Arial" fill="#555">COMPETENT</text>
+</svg>

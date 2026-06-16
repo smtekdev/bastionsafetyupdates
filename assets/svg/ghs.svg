@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <circle cx="128" cy="128" r="120" fill="#fff" stroke="#d62828" stroke-width="8"/>
+
+  <polygon points="128,56 156,84 128,112 100,84"
+           fill="#d62828"/>
+
+  <polygon points="128,68 144,84 128,100 112,84"
+           fill="#fff"/>
+
+  <text x="128"
+        y="175"
+        text-anchor="middle"
+        font-size="20"
+        font-weight="bold"
+        fill="#d62828">GHS</text>
+
+  <text x="128"
+        y="198"
+        text-anchor="middle"
+        font-size="15"
+        fill="#555">HAZCOM</text>
+</svg>

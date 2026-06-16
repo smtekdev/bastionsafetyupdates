@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+<circle cx="128" cy="128" r="120" fill="#fff" stroke="#b5179e" stroke-width="8"/>
+<circle cx="128" cy="82" r="36" fill="#b5179e"/>
+<text x="128" y="92" text-anchor="middle" font-size="24" font-weight="bold" fill="#fff">40</text>
+<text x="128" y="176" text-anchor="middle" font-size="18" font-weight="bold" fill="#b5179e">HAZWOPER</text>
+<text x="128" y="198" text-anchor="middle" font-size="15" fill="#555">HOUR</text>
+</svg>

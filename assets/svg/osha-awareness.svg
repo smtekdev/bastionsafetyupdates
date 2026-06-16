@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+<circle cx="128" cy="128" r="120" fill="#fff" stroke="#00509d" stroke-width="8"/>
+<circle cx="128" cy="82" r="36" fill="#00509d"/>
+<path d="M128 60 L146 72 L139 96 H117 L110 72Z" fill="#fff"/>
+<text x="128" y="175" text-anchor="middle" font-size="18" font-weight="bold" font-family="Arial" fill="#00509d">OSHA</text>
+<text x="128" y="198" text-anchor="middle" font-size="16" font-family="Arial" fill="#444">AWARENESS</text>
+</svg>

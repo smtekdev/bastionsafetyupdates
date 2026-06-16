@@ -1,0 +1,42 @@
+.sliding-text-one {
+    position: relative;
+    overflow: hidden;
+    padding: 25px 0;
+    background: var(--maroof-base);
+}
+
+.sliding-text-one__wrap {
+    overflow: hidden;
+    width: 100%;
+}
+
+.sliding-text__list {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    width: max-content;
+    animation: marquee 20s linear infinite;
+    will-change: transform;
+}
+
+.sliding-text__list li {
+    list-style: none;
+    flex: 0 0 auto;
+}
+
+.sliding-text__list img {
+    height: 150px;
+    width: auto;
+    object-fit: contain;
+    display: block;
+}
+
+/* 🔥 SMOOTH LOOP */
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
