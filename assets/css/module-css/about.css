@@ -234,11 +234,12 @@
     transition: all 200ms linear;
     transition-delay: 0.1s;
     font-size: 16px;
-    line-height: 16px;
+    line-height: 0px;
     color: var(--maroof-black);
     font-weight: 700;
     transition: all 0.3s ease;
     z-index: 1;
+    padding-top: 10px;
 }
 
 .about-one__main-tab-box .tab-buttons .tab-btn.active-btn p {
