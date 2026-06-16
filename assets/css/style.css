@@ -2248,8 +2248,8 @@ ul {
 
 /* Image Wrapper */
 .cert-img-wrap {
-    width: 80px;
-    height: 80px;
+    width: 150px;
+    height: 115px;
     margin: 0 auto 15px;
     display: flex;
     align-items: center;
