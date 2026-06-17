@@ -2334,7 +2334,7 @@ ul {
 
 /* Expected Label */
 .expected-label {
-    display: inline-block;
+   display: inline-block;
     background: #fef3c7;
     color: #d97706;
     font-size: 10px;
@@ -2364,7 +2364,7 @@ ul {
     }
 
     .cert-card-inner {
-        padding: 25px 20px 20px;
+        padding: 30px 25px 30px;
     }
 
     .cert-list li {
@@ -2404,15 +2404,20 @@ ul {
     }
 
     .cert-card-inner {
-        padding: 20px 15px 18px;
+        padding: 20px 15px 30px;
     }
 
     .expected-label {
-        font-size: 9px;
-        padding: 1px 8px;
-        display: inline-block;
-        margin-top: 3px;
-    }
+    display: inline-block;
+    background: #fef3c7;
+    color: #d97706;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 2px 10px;
+    border-radius: 12px;
+    margin-left: 5px;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
 }
 
 @media (max-width: 480px) {
@@ -2424,7 +2429,7 @@ ul {
 
     .cert-list li {
         font-size: 11px;
-        padding: 3px 0 3px 14px;
+        /* padding: 3px 0 3px 14px; */
     }
 
     .cert-list li::before {
