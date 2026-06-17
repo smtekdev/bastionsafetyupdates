@@ -85,22 +85,20 @@
   </head>
   <style>
     /* ------- RESET / BASE ------- */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
+
+    .main-menu__wrapper {
+      position: relative;
+      display: block;
+      z-index: 1;
     }
 
-    body {
-      font-family: "Yantramanav", "Segoe UI", sans-serif;
-      background: #f8fafc;
-      color: #1e293b;
-      padding: 40px 20px;
-    }
-
-    .container {
-      max-width: 1280px;
-      margin: 0 auto;
+    .main-menu__wrapper-inner {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      z-index: 1;
     }
 
     /* ------- SECTION TITLE ------- */
@@ -255,9 +253,9 @@
   </style>
 
   <body>
-    <!-- <div class="preloader">
+    <div class="preloader">
       <div class="preloader__image"></div>
-    </div> -->
+    </div>
     <!-- /.preloader -->
     <!-- Start sidebar widget content -->
     <div class="xs-sidebar-group info-group info-sidebar">
@@ -270,53 +268,73 @@
           <div class="sidebar-textwidget">
             <div class="sidebar-info-contents">
               <div class="content-inner">
+                <!-- LOGO -->
                 <div class="logo">
-                  <a href="index.php.html"
-                    ><img src="assets/images/resources/logo-1.png" alt=""
-                  /></a>
+                  <a href="index.php.html">
+                    <img src="assets/images/Traning/logo.png" alt="" />
+                  </a>
                 </div>
+
+                <!-- ABOUT -->
                 <div class="content-box">
-                  <h4>About Us</h4>
+                  <h4>About Bastion Safety Consulting</h4>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod
-                    tempor incididunt ut labore et magna aliqua.
+                    We specialize in workplace safety consulting, risk
+                    assessment, and compliance solutions. Our mission is to help
+                    organizations build safer, healthier, and fully compliant
+                    work environments.
                   </p>
                 </div>
+
+                <!-- SERVICES SHORT -->
+                <div class="content-box">
+                  <h4>What We Do</h4>
+                  <ul>
+                    <li>Workplace Safety Training</li>
+                    <li>Safety Audits & Compliance</li>
+                    <li>Risk Assessment</li>
+                    <li>Site Inspections</li>
+                    <li>Safety Policy Development</li>
+                  </ul>
+                </div>
+
+                <!-- FORM -->
                 <div class="form-inner">
-                  <h4>Get a free quote</h4>
-                  <form
-                    action="assets/inc/sendemail.php"
-                    class="contact-form-validated"
-                    novalidate="novalidate"
-                  >
+                  <h4>Request a Free Consultation</h4>
+
+                  <form action="#" class="contact-form-validated">
                     <div class="form-group">
                       <input
                         type="text"
                         name="name"
-                        placeholder="Name"
-                        required=""
+                        placeholder="Your Name"
+                        required
                       />
                     </div>
+
                     <div class="form-group">
                       <input
                         type="email"
                         name="email"
-                        placeholder="Email"
-                        required=""
+                        placeholder="Your Email"
+                        required
                       />
                     </div>
+
                     <div class="form-group">
                       <textarea
                         name="message"
-                        placeholder="Message..."
+                        placeholder="Tell us about your safety requirements..."
                       ></textarea>
                     </div>
+
                     <div class="form-group message-btn">
                       <button type="submit" class="thm-btn form-inner__btn">
-                        Submit Now
+                        Get Free Quote
                       </button>
                     </div>
                   </form>
+
                   <div class="result"></div>
                 </div>
               </div>
@@ -659,8 +677,8 @@
               href="#"
               style="
                 display: inline-block;
-                background: #b22234;
-                color: white;
+                background: #fff;
+                color: black;
                 font-weight: 600;
                 padding: 12px 36px;
                 border-radius: 50px;
